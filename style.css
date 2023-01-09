@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0000002d;
+  margin: 15px;
+}
+button {
+  margin-top: 10px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #0000006d;
+  border-radius: 5px;
+}
+
+.todos {
+  display: inline-block;
+}
+
+.page {
+  margin-right: 3px;
+  background: #0000006d;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  border: #0000006d;
+}
+
+aside {
+  display: flex;
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.itemsPerPage {
+  text-decoration: none;
+  height: 25px;
+  color: white;
+  background-color: #0000006d;
+  border-radius: 4px;
+  border: #0000006d;
+}
+
+.containerEl {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.elem {
+  display: inline-block;
+  height: 10px;
+}
+
+.delete,
+.change {
+  width: 60px;
+  height: 30px;
+}
+
+.delete {
+  background-color: #814875;
+  border-color: #814875;
+  outline: none;
+  color: white;
+}
+
+.change {
+  background-color: #ad5786;
+  border-color: #ad5786;
+  outline: none;
+  color: white;
+}
+
+.inp {
+  width: 500px;
+  border-radius: 6px;
+  border-color: #ad5786;
+}
+
+.ok {
+  height: 30px;
+  color: white;
+  border: none;
+}
+
+.active {
+  background: #292626;
+}
+
+h3 {
+  display: inline-block;
+}
